@@ -27,7 +27,7 @@ _handleChange = (e) => {
     const  inputMovie  = this.state.inputMovie
     //console.log(inputMovie)
 
-    fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&s=${inputMovie}`)
+    fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${inputMovie}`)
         .then(res => res.json()
             .then(results => {
               if(results.Response==="True"){
