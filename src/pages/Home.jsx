@@ -19,7 +19,7 @@ export class Home extends Component {
         }
     }
     componentWillMount() {
-        fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&t=${title_portada}`)
+        fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&t=${title_portada}`)
             .then(res => res.json()
                 .then(results => {
                   //  console.log(results)
