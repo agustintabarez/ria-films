@@ -50,7 +50,7 @@ export class SilderFilms extends Component {
     }
 
     _fetchFilms(titulo) {
-        fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&t=${titulo}`)
+        fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&t=${titulo}`)
             .then(res => res.json()
                 .then(results => {
                     console.log(results)
