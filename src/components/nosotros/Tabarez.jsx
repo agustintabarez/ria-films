@@ -17,9 +17,7 @@ export class Tabarez extends Component {
                      <b>   Le gusta el cine, nada como una buena peli!!</b>
                         <br/>
                 
-                        También se lo conoce como "El loco Turbina" o "Turbillo".
-                        Estos apodos se deben a que se hacía pasar por mecánico y afanaba
-                        radiadores de autos en Malvin Norte para revenderlos posteriormente.<br/>
+                        También se lo conoce como "El loco Turbina" o "Turbillo".<br/>
                      
                         <b>Géneros Favoritos:</b> Accion de Preferencia!
                         <br />
@@ -27,7 +25,7 @@ export class Tabarez extends Component {
                         <b>Películas Favaritas:</b>
                         <li><Link to="/details/tt0116705" target="_blank">Turbo Man</Link></li>
                         <li><Link to="/details/tt1080016" target="_blank">La Era del Hielo</Link></li>
-                        <li><Link to="/details/tt0232500" target="_blank">Rapidos y Furiosos (Toreto Papá!!)</Link></li>
+                        <li><Link to="/details/tt0232500" target="_blank">Rapidos y Furiosos</Link></li>
                         <li><Link to="/details/tt1375670" target="_blank">Son Como Niños</Link></li>                       
 
                         
